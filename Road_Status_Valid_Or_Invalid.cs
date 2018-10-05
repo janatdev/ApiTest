@@ -15,7 +15,7 @@ namespace TFLTest
     public class Road_Status_Valid_Or_Invalid
     {
         [Fact]
-        public static void GotExpectedEvent()
+        public static void GotExpectedResult_Valid()
         {
 
             var mock = new Mock<IConsumeAsyncTfl>();
