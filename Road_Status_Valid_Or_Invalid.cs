@@ -21,6 +21,7 @@ namespace TFLTest
             var mock = new Mock<IConsumeAsyncTfl>();
             var result = mock
                 .Setup(s => s.RoadStatusCheckTask());
+             Assert.NotNull(result);  
         }
     }
 }
